@@ -1,0 +1,42 @@
+.custom-screen {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.custom-btn-bg {
+  background: radial-gradient(67.5% 67.5% at 50% 50%,#4b5563 0,rgba(75,85,99,0) 100%);
+}
+
+.custom-btn-bg:hover {
+    background: radial-gradient(118.75% 118.75% at 50% 50%,#4b5563 0,rgba(75,85,99,0) 100%);
+}
+
+.main-bg-image {
+  background-image:linear-gradient(179.1deg, #FFFFFF 0.77%, rgba(255, 255, 255, 0) 182.09%);
+}
+
+.picture-background {
+  background:linear-gradient(180deg, #076AE0 0%, rgba(48, 138, 245, 0.984375) 0.01%, rgba(29, 78, 216, 0.2) 100%);
+}
+
+.image-transparent {
+  color:transparent;
+}
+
+.card-bg {
+  background:radial-gradient(157.73% 157.73% at 50% -29.9%, rgba(203, 213, 225, 0.16) 0%, rgba(203, 213, 225, 0) 100%);
+}
+
+.box-color {
+  background-image:radial-gradient(130.39% 130.39% at 51.31% -0.71%, #1F2937 0%, rgba(31, 41, 55, 0) 100%);
+}
+
+@media (min-width: 768px) {
+  .custom-screen {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
