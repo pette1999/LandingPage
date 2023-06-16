@@ -49,7 +49,7 @@ export default function Main() {
           <div className="space-y-4 max-w-3xl mx-auto text-center">
             <h1 className="main-bg-image text-4xl bg-clip-text text-transparent font-extrabold mx-auto sm:text-[60px] leading-tight">
               Smart Account Layer
-              <h1 className="text-4xl bg-clip-text text-transparent font-extrabold mx-auto sm:text-[40px] leading-tight"><span className="text-[#076AE0]">{text}</span> is your web3 account</h1>
+              <h1 className="text-4xl bg-clip-text text-transparent font-extrabold mx-auto sm:text-[40px] leading-tight"><span className="text-[#308AF5]">{text}</span> is your web3 account</h1>
             </h1>
             <p className="max-w-xl mx-auto text-gray-300">
               Enable flexibilities in choosing auth solution providers and permits the use of upper-layer applications with a seamless Web2 user experience without compromising security measures
