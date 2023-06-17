@@ -1,12 +1,19 @@
 export default function Advantages() {
   return (
     <section className="py-16 lg:py-24 custom-screen">
-      <div className="relative max-w-xl mx-auto text-center">
+      <div className="max-w-[40rem] mx-auto text-center duration-1000 delay-300 opacity-1">
         <h2 className="text-gray-50 text-3xl font-semibold sm:text-4xl">
-          Find a plan to power your finances
+          Pluggable Smart Account Layer
         </h2>
+        <p className="mt-3">
+          We break down the wallet into two parts:&nbsp;
+          <span className="text-[#076AE0]"><b>Account</b></span>
+          &nbsp;and&nbsp;
+          <span className="text-[#076AE0]"><b>Assets Management</b></span>
+          <br></br>provides better UX for dApps while maintains a unified account layer across dApps.
+        </p>
       </div>
-      <div className="mt-16 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3 duration-1000 delay-300 opacity-1">
+      <div className="mt-12 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-3 duration-1000 delay-300 opacity-1">
         <div className="relative flex-1 flex items-stretch flex-col rounded-xl border border-gray-800 mt-6 sm:mt-0 ">
           <div className="p-8 space-y-4 border-b border-gray-800 text-center">
             <span className="text-purple-600 font-medium">Starter</span>
@@ -147,11 +154,11 @@ export default function Advantages() {
                 Advance Tax Calculator
               </li>
             </ul>
-            <div className="pt-8">
+            {/* <div className="pt-8">
               <button role="button" className="w-full rounded-full text-white ring-offset-2 focus:ring bg-[#076AE0] hover:bg-[#308AF5] px-4 py-2.5 font-medium text-sm text-center duration-150">
                 Download Now!
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

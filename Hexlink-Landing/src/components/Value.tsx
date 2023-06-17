@@ -4,10 +4,10 @@ export default function Value() {
       <div id="features" className="custom-screen text-gray-300">
         <div className="max-w-xl mx-auto text-center duration-1000 delay-300 opacity-1">
           <h2 className="text-gray-50 text-3xl font-semibold sm:text-4xl">
-            Start growing your wealth with Eclipse
+            Onboard users 
           </h2>
           <p className="mt-3">
-            All-in-one personal finance app that simplifies investment opportunities, expense tracking, and financial news for users..
+            we break down the wallet into two parts: Account and Assets Management, provide better user experience for dApps by supporting email/phone/social login while maintains a unified account layer across dApps.
           </p>
         </div>
         <div className="relative mt-12 duration-1000 delay-500 opacity-1">

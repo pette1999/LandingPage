@@ -48,7 +48,7 @@ export default function Main() {
         <div className=" duration-1000 delay-300 opacity-1">
           <div className="space-y-4 max-w-3xl mx-auto text-center">
             <h1 className="main-bg-image text-4xl bg-clip-text text-transparent font-extrabold mx-auto sm:text-[60px] leading-tight">
-              Smart Account Layer
+              Web3 Google Account
               <h1 className="text-4xl bg-clip-text text-transparent font-extrabold mx-auto sm:text-[40px] leading-tight"><span className="text-[#308AF5]">{text}</span> is your web3 account</h1>
             </h1>
             <p className="max-w-xl mx-auto text-gray-300">

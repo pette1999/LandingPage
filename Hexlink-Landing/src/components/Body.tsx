@@ -7,9 +7,9 @@ export default function Body() {
   return (
     <>
       <Main />
+      <Advantages />
       <Value />
       <ViewDoc />
-      <Advantages />
     </>
   )
 }
