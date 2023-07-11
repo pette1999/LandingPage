@@ -14,8 +14,8 @@ export default function Value() {
           <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
             <li className="card-bg space-y-3 p-4 rounded-xl border border-gray-800">
               <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg text-gray-50">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                 </svg>
               </div>
               <h3 className="text-lg text-gray-50 font-semibold">Automated Expense Tracking</h3>
@@ -23,8 +23,8 @@ export default function Value() {
             </li>
             <li className="card-bg space-y-3 p-4 rounded-xl border border-gray-800">
               <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg text-gray-50">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                 </svg>
               </div>
               <h3 className="text-lg text-gray-50 font-semibold">Investment Opportunities</h3>
@@ -32,8 +32,8 @@ export default function Value() {
             </li>
             <li className="card-bg space-y-3 p-4 rounded-xl border border-gray-800">
               <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg text-gray-50">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                 </svg>
               </div>
               <h3 className="text-lg text-gray-50 font-semibold">Latest Financial News</h3>
@@ -41,8 +41,8 @@ export default function Value() {
             </li>
             <li className="card-bg space-y-3 p-4 rounded-xl border border-gray-800">
               <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg text-gray-50">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                 </svg>
               </div>
               <h3 className="text-lg text-gray-50 font-semibold">Advance Tax Calculator</h3>
@@ -50,8 +50,8 @@ export default function Value() {
             </li>
             <li className="card-bg space-y-3 p-4 rounded-xl border border-gray-800">
               <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg text-gray-50">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                 </svg>
               </div>
               <h3 className="text-lg text-gray-50 font-semibold">Eclipse Education (For Users)</h3>
@@ -59,8 +59,8 @@ export default function Value() {
             </li>
             <li className="card-bg space-y-3 p-4 rounded-xl border border-gray-800">
               <div className="w-12 h-12 flex items-center justify-center bg-gray-700 rounded-lg text-gray-50">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"></path>
                 </svg>
               </div>
               <h3 className="text-lg text-gray-50 font-semibold">Eclipse Education (For Writers)</h3>
