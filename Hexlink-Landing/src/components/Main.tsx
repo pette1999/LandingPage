@@ -109,7 +109,7 @@ export default function Main() {
                 Enhance the sprit of internet by bringing back the interoperability with a permission-less identity layer secured by blockchain technology.
               </p>
             </div>
-            <MainButton buttonText="View Demo"/>
+            <MainButton buttonText="View Demo" buttonLink="https://dev.hexlink.io/"/>
           </div>
           <div className="relative mt-16 sm:mt-28 max-w-[1120px]">
             <div className="picture-background absolute m-auto blur-[160px] max-w-3xl h-[250px] top-12 inset-0 sm:h-[300px] lg:h-[650px]"></div>

@@ -24,7 +24,7 @@ export default function Features() {
           <div className="flex-none h-auto relative whitespace-pre-wrap w-auto break-words flex flex-col justify-start shrink-0 text-[#B4BCD0]">
             <p className="text-[20px] not-italic font-normal leading-8 text-center">Permits the use of upper-layer applications with a seamless Web2 user experience <br></br>without compromising security measures</p>
           </div>
-          <MainButton buttonText="View Doc" />
+          <MainButton buttonText="View Doc" buttonLink="https://hexlink.gitbook.io/hexlink-docs/" />
         </div>
         <div className="hidden sm:flex flex-none flex-row flex-nowrap gap-[16px] h-min justify-center max-w-[1128px] overflow-visible p-0 relative w-full items-center opacity-100">
           <div className="flex-1 relative h-auto w-[1px] z-1 block opacity-100 transform" onClick={() => setActive(1)}>

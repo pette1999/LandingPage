@@ -16,7 +16,7 @@ export default function CTA() {
                 </h2>
               </div>
               <div className="mt-[40px]">
-                <MianButton buttonText="Coming Soon" />
+                <MianButton buttonText="Coming Soon" buttonLink="/" />
               </div>
             </div>
             <img alt="Background pattern" src="https://eclipsefin.netlify.app/_ipx/w_3840,q_75/%2F_next%2Fstatic%2Fmedia%2Fbg-pattern.5aa07776.webp?url=%2F_next%2Fstatic%2Fmedia%2Fbg-pattern.5aa07776.webp&w=3840&q=75" width="2880" height="1358" decoding="async" data-nimg="1" className="image-transparent w-full h-full object-cover m-auto absolute inset-0 pointer-events-none" loading="lazy" />
