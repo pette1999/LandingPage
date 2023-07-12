@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav className="custom-screen w-full flex py-6 justify-between items-center sticky top-0 z-20 bg-[#111827]">
-      <img src={hexlink} alt="hexlink" width={30} height={30} />
+      <img src={hexlink} alt="hexlink" className="h-[35px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -19,7 +19,7 @@ export default function Navbar() {
               } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`#${nav.id}`}>{nav.title}</a>
+            <a href={`${nav.id}`}>{nav.title}</a>
           </li>
         ))}
       </ul>
@@ -43,7 +43,7 @@ export default function Navbar() {
                   } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`#${nav.id}`}>
+                <a href={`${nav.id}`} target="_blank">
                   <h4 className="text-2xl font-sans not-italic font-bold tracking-tight leading-8 text-start">{nav.title}</h4>
                 </a>
               </li>

@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import landing from "../assets/landing.svg";
+import landing_mobile from "../assets/landing-mobile.svg";
+import MainButton from "./MainButton";
 
 export default function Main() {
   const [text, setText] = useState('');
@@ -45,7 +47,7 @@ export default function Main() {
 
   return (
     <section>
-      <div className="custom-screen pt-[60px] pb-28 flex flex-none items-center flex-col flex-nowrap gap-[80px] h-min justify-center overflow-hidden relative w-full">
+      <div id="home" className="custom-screen pt-[60px] pb-28 flex flex-none items-center flex-col flex-nowrap gap-[80px] h-min justify-center overflow-visible relative w-full">
         <div className=" duration-1000 delay-300 opacity-1">
           <div className="max-w-[800px] mx-auto text-center flex flex-col flex-nowrap gap-[40px] justify-center items-center overflow-visible min-h-min">
             <div className="relative w-auto opacity-100" style={{transform: "perspective(1200px)"}}>
@@ -104,26 +106,16 @@ export default function Main() {
             </div>
             <div className="tracking-[16px] flex-none h-auto relative whitespace-pre-wrap w-full break-word flex flex-col justify-start opacity-100 shrink-0" style={{ transform: "perspective(1200px)" }}>
               <p className="font-sans text-[20px] not-italic font-normal leading-8 tracking-normal text-center text-[#B4BCD0]">
-                Enhance the sprit of internet by bringing back the interoperability with a permissionless identity layer secured by blockchain technology.
+                Enhance the sprit of internet by bringing back the interoperability with a permission-less identity layer secured by blockchain technology.
               </p>
             </div>
-            <div className="flex items-center flex-none flex-row flex-nowrap gap-[16px] h-min justify-center overflow-visible p-0 relative w-full opacity-100" style={{ transform: "perspective(1200px)" }}>
-              <div className="flex-none h-auto relative sm:w-auto w-full block">
-                <div className="contents">
-                  <a className="button-bg border border-solid rounded-lg opacity-100 items-center cursor-pointer flex flex-row flex-nowrap gap-[0px] h-min justify-center overflow-visible relative sm:w-min w-full px-[10px] py-[6px]" style={{ borderColor: "rgba(0,0,0,0.1)"}}>
-                    <div className="flex-none h-auto relative whitespace-pre w-auto flex flex-col justify-start shrink-0 opacity-100">
-                      <p className="font-sans text-base not-italic font-semibold leading-8 tracking-normal text-start text-white">Book demo</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+            <MainButton buttonText="View Demo"/>
           </div>
           <div className="relative mt-16 sm:mt-28 max-w-[1120px]">
             <div className="picture-background absolute m-auto blur-[160px] max-w-3xl h-[250px] top-12 inset-0 sm:h-[300px] lg:h-[650px]"></div>
             <div className="relative">
-              {/* <img className="shadow-lg rounded-2xl image-transparent" src="https://eclipsefin.netlify.app/_ipx/w_3840,q_75/%2F_next%2Fstatic%2Fmedia%2Freadme1.f23860ab.png?url=%2F_next%2Fstatic%2Fmedia%2Freadme1.f23860ab.png&w=3840&q=75" width="1920" height="1080" decoding="async" data-nimg="1" loading="lazy" /> */}
-              <img className="shadow-lg rounded-2xl image-transparent" src={landing} width="1920" height="800" decoding="async" data-nimg="1" loading="lazy" />
+              <img className="shadow-lg rounded-2xl image-transparent hidden sm:block" src={landing} width="1920" height="800" decoding="async" data-nimg="1" loading="lazy" />
+              <img className="shadow-lg rounded-2xl image-transparent block sm:hidden" src={landing_mobile} width="1920" height="800" decoding="async" data-nimg="1" loading="lazy" />
             </div>
           </div>
         </div>

@@ -1,14 +1,14 @@
 export const navLinks = [
   {
-    id: "home",
+    id: "#home",
     title: "Home",
   },
   {
-    id: "docs",
+    id: "https://hexlink.gitbook.io/hexlink-docs/",
     title: "Docs",
   },
   {
-    id: "demo",
+    id: "https://dev.hexlink.io/",
     title: "Demo",
   }
 ];

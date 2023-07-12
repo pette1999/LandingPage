@@ -1,15 +1,19 @@
 import Main from './Main';
-import Value from './Value';
-import ViewDoc from './ViewDoc';
-import Advantages from './Advantages';
+// import Value from './Value';
+import CTA from './CTA';
+// import Advantages from './Advantages';
+import Features from './Features';
+// import Team from './Team';
 
 export default function Body() {
   return (
     <>
       <Main />
-      <Advantages />
-      <Value />
-      <ViewDoc />
+      <Features />
+      {/* <Advantages />
+      <Value /> */}
+      <CTA />
+      {/* <Team /> */}
     </>
   )
 }
